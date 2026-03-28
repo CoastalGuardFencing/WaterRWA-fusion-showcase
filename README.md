@@ -1,27 +1,22 @@
 # WaterRWA Fusion Showcase
 
-Public showcase for the **Boring + Void Fusion** verification approach:
+## Live Release Proof
+
+Public release proof is now live.
+
+- Release: [v1.0.0-boring-void-governance](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/tag/v1.0.0-boring-void-governance)
+- ZIP: [WaterRWA-ship-v1.zip](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/WaterRWA-ship-v1.zip)
+- SHA-256: [WaterRWA-ship-v1.zip.sha256.txt](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/WaterRWA-ship-v1.zip.sha256.txt)
+- Receipts: [fusion-batch-verify-receipt.json](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/fusion-batch-verify-1774663153285.json) and [fusion-root-check-receipt.json](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/fusion-root-check-1774663155012.json)
+
+Verify the ZIP digest against the SHA-256 file, then open both receipts and confirm `VERIFIED_READY`.
+
+## What this showcases
 
 - deterministic generation
 - checksum-backed release assets
 - Merkle-root governance receipts
 - pre-release hardening gate
-
-## Live Release Proof
-
-Public release proof is now live. Inspect the tagged release and verify the ZIP, SHA-256 checksum, and governance receipts directly.
-
-- Release: [v1.0.0-boring-void-governance](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/tag/v1.0.0-boring-void-governance)
-- ZIP: [WaterRWA-ship-v1.zip](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/WaterRWA-ship-v1.zip)
-- SHA-256: [WaterRWA-ship-v1.zip.sha256.txt](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/WaterRWA-ship-v1.zip.sha256.txt)
-- Receipts:
-  [fusion-batch-verify-receipt.json](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/fusion-batch-verify-1774663153285.json)
-  [fusion-root-check-receipt.json](https://github.com/CoastalGuardFencing/WaterRWA-fusion-showcase/releases/download/v1.0.0-boring-void-governance/fusion-root-check-1774663155012.json)
-
-Verify the ZIP digest against the SHA-256 file, then inspect both receipt JSON files on the tagged release.
-
-## What this demonstrates
-
 - Release integrity workflow design
 - Governance-first shipping model
 - Evidence-backed CI/CD release gates
